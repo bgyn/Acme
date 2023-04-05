@@ -3,6 +3,7 @@ import navmenu from './../components/NavMenu.vue';
 import herosection from './../components/hero.vue';
 import supports from './../components/support.vue';
 import SafeSection from './../components/SafeSection.vue';
+import ShopProduct from './../components/ShopProduct.vue';
 </script>
 
 <template>
@@ -13,6 +14,8 @@ import SafeSection from './../components/SafeSection.vue';
   <supports></supports>
 
   <SafeSection></SafeSection>
+
+  <ShopProduct></ShopProduct>
 </template>
 
 <style>

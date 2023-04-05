@@ -17,7 +17,7 @@
         </div>
         <div class="nav-cart-wrapper">
           <div class="navigation">
-            <a href="#" class="nav-link">Home</a>
+            <a href="/HomeView" class="nav-link">Home</a>
             <a href="/about" class="nav-link">About</a>
             <a href="#" class="nav-link">Shop</a>
             <a href="#" class="nav-link">Donate</a>
@@ -163,7 +163,6 @@
     height: 100vh;
     top: 70px;
     background-color: red;
-    display: flex;
     flex-direction: column;
   }
   .navigation .nav-link{

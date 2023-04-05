@@ -57,5 +57,18 @@
     border-radius: 10px;
 }
 
-
+@media screen and (max-width: 480px){
+    .safe-section{
+        padding: 0 20px;
+    }
+    .safe-section-wrapper{
+        padding-left: 10px;
+    }
+    .safe-section-wrapper .safe-top-header{
+        font-size: 14px;
+    }
+    .safe-section-wrapper .safe-paragraph{
+        font-size: 12px;
+    }
+}
 </style>
