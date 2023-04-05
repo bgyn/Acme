@@ -4,6 +4,7 @@ import herosection from './../components/hero.vue';
 import supports from './../components/support.vue';
 import SafeSection from './../components/SafeSection.vue';
 import ShopProduct from './../components/ShopProduct.vue';
+import ShopLocal from './../components/ShopLocal.vue';
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import ShopProduct from './../components/ShopProduct.vue';
   <SafeSection></SafeSection>
 
   <ShopProduct></ShopProduct>
+
+  <ShopLocal></ShopLocal>
 </template>
 
 <style>
