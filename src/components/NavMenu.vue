@@ -18,7 +18,7 @@
         <div class="nav-cart-wrapper">
           <div class="navigation">
             <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">About</a>
+            <a href="/about" class="nav-link">About</a>
             <a href="#" class="nav-link">Shop</a>
             <a href="#" class="nav-link">Donate</a>
             <a href="#" class="nav-link">Contact</a>

@@ -1,5 +1,5 @@
 <script setup>
-import navmenu from './compnents/NavMenu.vue';
+import navmenu from './../components/NavMenu.vue';
 </script>
 
 <template>
