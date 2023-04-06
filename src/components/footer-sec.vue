@@ -1,11 +1,12 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="footer-section">
     <div class="footer-wrapper">
       <div class="brand">
-        <a href="#"
-          ><img
+        <a href="#">
+          <img
             src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adad44d1f072965b6_logo.svg"
             alt="ACME"
         /></a>
@@ -31,12 +32,27 @@
 .footer-wrapper{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 .social-media-wrapper{
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .social-media-wrapper .social-link img{
-  width: 50px;
+  width: 40px;
+}
+
+@media screen and (max-width: 480px){
+  .footer-section{
+    padding: 0 20px;
+  }
+  .footer-wrapper .brand{
+    margin: 20px 0;
+  }
+  .footer-wrapper{
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 </style>

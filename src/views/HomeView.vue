@@ -5,7 +5,7 @@ import supports from './../components/support.vue';
 import SafeSection from './../components/SafeSection.vue';
 import ShopProduct from './../components/ShopProduct.vue';
 import ShopLocal from './../components/ShopLocal.vue';
-import Footersection from './../components/footer.vue'
+import bottom from '../components/footer-sec.vue';
 </script>
 
 <template>
@@ -21,7 +21,7 @@ import Footersection from './../components/footer.vue'
 
   <ShopLocal></ShopLocal>
 
-  <Footersection></Footersection>
+  <bottom></bottom>
   
 </template>
 

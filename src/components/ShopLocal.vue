@@ -81,6 +81,7 @@
 @media screen and (max-width: 480px){
     .shop-local-section{
         padding: 0;
+        margin-bottom: 0;
     }
     .shop-local-wrapper{
        display: block;
